@@ -54,7 +54,7 @@
 
     SYSTEMS = [
       flake-utils.lib.system.x86_64-linux
-      flake-utils.lib.system.x86_64-darwin
+      flake-utils.lib.system.aarch64-darwin
     ];
 
     kernelLib = import ./lib/kernels.nix {inherit self lib;};
