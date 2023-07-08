@@ -1,10 +1,10 @@
 {
   description = "Declarative and reproducible Jupyter environments - powered by Nix";
 
-  nixConfig.extra-substituters = [
+  nixConfig.trusted-substituters = [
     "https://tweag-jupyter.cachix.org"
   ];
-  nixConfig.extra-trusted-public-keys = [
+  nixConfig.trusted-public-keys = [
     "tweag-jupyter.cachix.org-1:UtNH4Zs6hVUFpFBTLaA4ejYavPo5EFFqgd7G7FxGW9g="
   ];
 
